@@ -4,7 +4,7 @@ using UnityEngine;
 using Pathfinding;
 public class AiScript : MonoBehaviour
 {
-    public float speed = 200f;
+    public float speed = 300f;
     public float nextWayPointDistance = 0.5f;
     Path path;
     int currentWaypoint = 0;
